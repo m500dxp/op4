@@ -31,6 +31,7 @@ class CarState(CarStateBase):
     self.has_scc14 = CP.hasScc14 or CP.carFingerprint in FEATURES["has_scc14"]
     self.leftBlinker = False
     self.rightBlinker = False
+#    self.lkas_button_on = True    
     self.cruise_main_button = 0
     self.mdps_error_cnt = 0
     self.cruise_unavail_cnt = 0
